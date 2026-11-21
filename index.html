@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ngopi Dulu</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+    <nav>
+        <a href="#" class="brand" aria-label="Ngopi Dulu, Kopi dan Makanan">
+
+        <svg class="brand-bean" viewBox="0 0 24 24" aria-hidden="true">
+            <ellipse cx="12" cy="12" rx="7" ry="10" transform="rotate(35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M17 5 C11 9, 13 15, 7 19" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        </svg>
+
+        <span class="brand-teks">
+            <span class="brand-nama">Ngopi Dulu</span>
+            <span class="brand-garis"></span>
+            <span class="brand-tagline">Kopi &amp; Makanan</span>
+        </span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul id="nav-menu">
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#tempat">Reservasi</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero-image">
+            <div class="hero-text">
+            <div class="ornament">
+                <svg class="bean" viewBox="0 0 24 24" aria-hidden="true">
+                    <ellipse cx="12" cy="12" rx="7" ry="10" transform="rotate(35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M17 5 C11 9, 13 15, 7 19" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                </svg>
+                <svg class="bean flip" viewBox="0 0 24 24" aria-hidden="true">
+                    <ellipse cx="12" cy="12" rx="7" ry="10" transform="rotate(35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M17 5 C11 9, 13 15, 7 19" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                </svg>
+            </div>
+                <h1>Selamat Datang di Ngopi Dulu</h1>
+            <div class="subtitle-row">
+                <span class="line"></span>
+                <p>Kopi &amp; Makanan Nusantara</p>
+                <span class="line"></span>
+            </div>
+                <div class="badge" aria-hidden="true">&#9733;</div>
+            </div>
+        </div>
+    </main>
+
+    <section id="tentang" class="tentang">
+    <div class="tentang-atas">
+        <div class="tentang-teks">
+            <div class="tentang-heading">
+                <h2 class="judul-script">Kenali</h2>
+                <div class="judul-baris">
+                    <span class="garis-ganda"></span>
+                    <h3 class="judul-kecil">Kisah Kami</h3>
+                    <span class="garis-ganda"></span>
+                </div>
+
+                <div class="ornament">
+                    <svg class="bean" viewBox="0 0 24 24" aria-hidden="true">
+                        <ellipse cx="12" cy="12" rx="7" ry="10" transform="rotate(35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <path d="M17 5 C11 9, 13 15, 7 19" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    </svg>
+                    <svg class="bean flip" viewBox="0 0 24 24" aria-hidden="true">
+                        <ellipse cx="12" cy="12" rx="7" ry="10" transform="rotate(35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <path d="M17 5 C11 9, 13 15, 7 19" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    </svg>
+                </div>
+            </div>
+        
+        <p>
+            Ngopi Dulu berawal dari satu kebiasaan sederhana: duduk sejenak, menyeduh kopi,
+            dan menikmati obrolan hangat sebelum melanjutkan hari. Kami memilih biji kopi
+            terbaik dari petani lokal di berbagai penjuru Nusantara, lalu menyangrainya
+            dengan penuh perhatian.
+        </p>
+        <p>
+            Di sini, setiap cangkir punya cerita. Dari kopi tubruk ala warung hingga seduhan
+            manual yang modern, semuanya disajikan dengan suasana yang membuat Anda betah
+            berlama-lama.
+        </p>
+
+            <a href="#menu" class="link-menu">Lihat Menu</a>
+        </div>
+    <img src="Suasana.jpg" alt="Suasana Ngopi Dulu" class="tentang-foto">
+    </div>
+
+    <div id="reservasi" class="jam-buka">
+        <h2 class="jam-judul">Jam Buka</h2>
+        <p class="sub-script">Hubungi Kami untuk Reservasi</p>
+
+        <div class="divider">
+            <span class="line"></span>
+            <span class="dot"></span>
+            <span class="line"></span>
+        </div>
+
+        <div class="jam-grid">
+            <div class="jam-col">
+                <p class="hari">Senin sampai Kamis</p>
+                <p class="waktu">07:30<br>21:00</p>
+            </div>
+
+            <div class="pola" aria-hidden="true"></div>
+
+            <div class="jam-col">
+                <p class="hari">Jumat sampai Minggu</p>
+                <p class="waktu">9:30<br>22:00</p>
+            </div>
+        </div>
+
+        <a href="#" class="telepon">+62 123-4567-8910</a>
+    </div>
+
+    <div class="tentang-atas fasilitas">
+        <div class="slideshow">
+            <div class="slideshow-track">
+                <img src="fasilitas.jpg" alt="Ruangan ber-AC">
+                <img src="fasilitas2.jpg" alt="Area outdoor">
+                <img src="fasilitas3.jpg" alt="Live music">
+            </div>
+            <button class="slideshow-btn slideshow-prev" aria-label="Sebelumnya">&#8249;</button>
+            <button class="slideshow-btn slideshow-next" aria-label="Berikutnya">&#8250;</button>
+        </div>
+
+        <div class="tentang-teks">
+            <div class="tentang-heading">
+                <h2 class="judul-script">Fasilitas</h2>
+                <div class="judul-baris">
+                    <span class="garis-ganda"></span>
+                    <h3 class="judul-kecil">Nyaman untuk Semua</h3>
+                    <span class="garis-ganda"></span>
+                </div>
+
+                <div class="ornament">
+                    <svg class="bean" viewBox="0 0 24 24" aria-hidden="true">
+                        <ellipse cx="12" cy="12" rx="7" ry="10" transform="rotate(35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <path d="M17 5 C11 9, 13 15, 7 19" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    </svg>
+                    <svg class="bean flip" viewBox="0 0 24 24" aria-hidden="true">
+                        <ellipse cx="12" cy="12" rx="7" ry="10" transform="rotate(35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                        <path d="M17 5 C11 9, 13 15, 7 19" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    </svg>
+                </div>
+            </div>
+
+            <p>
+                Mau bekerja, rapat, atau sekadar bersantai bersama teman? Kami menyiapkan
+                ruang yang nyaman untuk semuanya.
+            </p>
+
+            <div class="fasilitas-list">
+                <div class="fasilitas-item">
+                    <div class="fasilitas-ikon"><i class="fa-solid fa-snowflake"></i></div>
+                    <span>Ruangan ber-AC</span>
+                </div>
+                <div class="fasilitas-item">
+                    <div class="fasilitas-ikon"><i class="fa-solid fa-tree"></i></div>
+                    <span>Area Outdoor</span>
+                </div>
+                <div class="fasilitas-item">
+                    <div class="fasilitas-ikon"><i class="fa-solid fa-wifi"></i></div>
+                    <span>Free WiFi</span>
+                </div>
+                <div class="fasilitas-item">
+                    <div class="fasilitas-ikon"><i class="fa-solid fa-users"></i></div>
+                    <span>Ruang Meeting Privat</span>
+                </div>
+                <div class="fasilitas-item">
+                    <div class="fasilitas-ikon"><i class="fa-solid fa-music"></i></div>
+                    <span>Live Music</span>
+                </div>
+            </div>
+
+            <a href="#tempat" class="link-menu">Pesan Tempat</a>
+        </div>
+    </div>
+
+    <div class="tim">
+        <div class="tentang-heading">
+            <h2 class="judul-script">Tim Kami</h2>
+            <h3 class="judul-kecil">Ramah dan Profesional</h3>
+
+            <div class="ornament">
+                <svg class="bean" viewBox="0 0 24 24" aria-hidden="true">
+                    <ellipse cx="12" cy="12" rx="7" ry="10" transform="rotate(35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M17 5 C11 9, 13 15, 7 19" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                </svg>
+                <svg class="bean flip" viewBox="0 0 24 24" aria-hidden="true">
+                    <ellipse cx="12" cy="12" rx="7" ry="10" transform="rotate(35 12 12)" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M17 5 C11 9, 13 15, 7 19" fill="none" stroke="currentColor" stroke-width="1.6"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="tentang-teks tim-intro">
+            <p>
+                Di balik setiap cangkir ada tangan-tangan terampil yang menyeduh dengan sepenuh hati.
+                Kenali orang-orang yang membuat Anda betah di Ngopi Dulu.
+            </p>
+        </div>
+
+        <div class="divider">
+            <span class="line"></span>
+            <span class="dot"></span>
+            <span class="line"></span>
+        </div>
+
+        <div class="tim-grid">
+            <div class="tim-anggota">
+                <img src="yuk-BrTdhDXVsLg-unsplash.jpg" alt="Andi Pratama" class="tim-foto">
+                <h4 class="tim-nama">Andi Pratama</h4>
+                <p class="tim-peran">Head Barista</p>
+            </div>
+            <div class="tim-anggota">
+                <img src="ilyas-bolatov-5yGG38P3Ncs-unsplash.jpg" alt="Sari Wulandari" class="tim-foto">
+                <h4 class="tim-nama">Sari Wulandari</h4>
+                <p class="tim-peran">Head Waitress</p>
+            </div>
+            <div class="tim-anggota">
+                <img src="rc-cf-FMh5o5m5N9E-unsplash.jpg" alt="Budi Santoso" class="tim-foto">
+                <h4 class="tim-nama">Budi Santoso</h4>
+                <p class="tim-peran">Head Chef</p>
+            </div>
+            <div class="tim-anggota">
+                <img src="zulfugar-karimov-W00KNqGWyJI-unsplash.jpg" alt="Rina Putri" class="tim-foto">
+                <h4 class="tim-nama">Rina Putri</h4>
+                <p class="tim-peran">Cafe Manager</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="menu-banner">
+            <h2 class="jam-judul">Menu Kami</h2>
+            <p class="sub-script">Minuman, hidangan, dan camilan pilihan</p>
+
+            <div class="divider">
+                <span class="line"></span>
+                <span class="dot"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+
+        <div class="menu-isi">
+
+        <div class="menu-kategori">
+            <div class="tentang-heading">
+                <h3 class="judul-script">Minuman</h3>
+                <div class="judul-baris">
+                    <span class="garis-ganda"></span>
+                    <h4 class="judul-kecil">Pelepas Dahaga</h4>
+                    <span class="garis-ganda"></span>
+                </div>
+            </div>
+            <div class="menu-list">
+                <div class="menu-item">
+                    <img src="images.jpg" alt="Kopi Tubruk" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Kopi Tubruk</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 15.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Kopi robusta lokal yang diseduh secara tradisional.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="event_1792138759.webp" alt="Es Kopi Susu Gula Aren" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Es Kopi Susu Gula Aren <span class="menu-badge"><i class="fa-solid fa-star"></i> Best Seller</span></span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 22.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Espresso, susu segar, dan manisnya gula aren.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="nameless-3791-5nYLHK68TLM-unsplash.jpg" alt="Cappuccino" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Cappuccino</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 25.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Espresso dengan susu panas dan busa lembut.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="1f23b72c9d0a129ce17dbfd3a246b311.jpg" alt="Mochaccino" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Mochaccino</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 28.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Perpaduan espresso, cokelat, dan susu panas.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="hannah-reid-LPDn9x-F6GM-unsplash.jpg" alt="Teh Susu" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Teh Susu</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 23.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Perpaduan teh harum dan susu yang creamy.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="gaia-co-VKWjhlgFFwc-unsplash.jpg" alt="Matcha Latte" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Matcha Latte</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 25.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Rasa teh hijau yang khas dengan susu halus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-kategori">
+            <div class="tentang-heading">
+                <h3 class="judul-script">Makanan Berat</h3>
+                <div class="judul-baris">
+                    <span class="garis-ganda"></span>
+                    <h4 class="judul-kecil">Pengisi Perut</h4>
+                    <span class="garis-ganda"></span>
+                </div>
+            </div>
+            <div class="menu-list">
+                <div class="menu-item">
+                    <img src="emanuel-ekstrom-1C_RSVhy32Y-unsplash.jpg" alt="Nasi Goreng Kampung" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Nasi Goreng Kampung <span class="menu-badge"><i class="fa-solid fa-star"></i> Best Seller</span></span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 32.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Nasi goreng bumbu rempah dengan telur mata sapi dan kerupuk.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="gourmet-lenz-C8PDfB2dhxc-unsplash.jpg" alt="Mie Goreng Jawa" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Mie Goreng Jawa</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 30.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Mie goreng manis gurih dengan sayuran segar dan telur.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="homescreenify-sA3wymYqyaI-unsplash.jpg" alt="Spaghetti" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Spaghetti Bolognese</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 25.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Spaghetti dengan saus tomat daging cincang dan taburan keju.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="soto_ayam_bumbu_kuning.jpg" alt="Soto Ayam" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Soto Ayam</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 28.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Kuah kuning hangat dengan suwiran ayam, soun, dan telur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-kategori">
+            <div class="tentang-heading">
+                <h3 class="judul-script">Camilan</h3>
+                <div class="judul-baris">
+                    <span class="garis-ganda"></span>
+                    <h4 class="judul-kecil">Teman Ngopi</h4>
+                    <span class="garis-ganda"></span>
+                </div>
+            </div>
+
+            <div class="menu-list">
+                <div class="menu-item">
+                    <img src="full_1789733391260888_032c98a4f4_berita_meulaboh.webp" alt="Pisang Goreng Keju" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Pisang Goreng Keju <span class="menu-badge"><i class="fa-solid fa-star"></i> Best Seller</span></span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 18.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Pisang goreng renyah dengan taburan keju dan susu.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="media_1619779365_0.jpeg" alt="Roti Bakar Cokelat" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Roti Bakar Cokelat</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 20.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Roti tebal dibakar dengan cokelat leleh dan keju.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="abhishek-hajare-JLdoipqFNds-unsplash.jpg" alt="Kentang Goreng" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Kentang Goreng</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 15.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Kentang goreng renyah di luar dan empuk di dalam.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="joe-boshra-ZibrloV_aEY-unsplash.jpg" alt="Garlic Bread" class="menu-foto">
+                    <div class="menu-info">
+                        <div class="menu-baris">
+                            <span class="menu-nama">Garlic Bread</span>
+                            <span class="menu-titik"></span>
+                            <span class="menu-harga">Rp 15.000</span>
+                        </div>
+                        <p class="menu-deskripsi">Roti panggang dengan olesan mentega bawang putih.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="review" class="review">
+        <h2 class="jam-judul">Ulasan</h2>
+        <p class="sub-script">Kata Mereka tentang Kami</p>
+
+        <div class="divider">
+            <span class="line"></span>
+            <span class="dot"></span>
+            <span class="line"></span>
+        </div>
+
+        <div class="review-nav">
+            <button class="review-btn review-prev" aria-label="Ulasan sebelumnya">&larr;</button>
+            <button class="review-btn review-next" aria-label="Ulasan berikutnya">&rarr;</button>
+        </div>
+
+        <div class="review-viewport">
+            <div class="review-track">
+
+            <div class="review-item">
+                <div class="review-bintang" aria-label="5 bintang">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-teks">"Kopinya mantap, tempatnya nyaman banget buat kerja seharian. WiFi kencang dan stafnya ramah."</p>
+                <p class="review-nama">Rina Wulandari</p>
+            </div>
+
+            <div class="review-item">
+                <div class="review-bintang" aria-label="5 bintang">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-teks">"Es kopi susu gula aren-nya juara! Pisang goreng kejunya juga bikin nagih. Pasti balik lagi."</p>
+                <p class="review-nama">Dimas Prasetyo</p>
+            </div>
+
+            <div class="review-item">
+                <div class="review-bintang" aria-label="5 bintang">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-teks">"Suasananya hangat, live music-nya pas untuk malam santai bersama teman. Recommended banget!"</p>
+                <p class="review-nama">Maya Anggraini</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservasi" class="reservasi">
+        <div class="reservasi-wrap">
+        <h3 class="form-judul">Pesan Tempat</h3>
+
+    <form id="formReservasi" class="reservasi-form" novalidate>
+        <div class="form-grid">
+
+            <div class="field">
+                <label for="res-nama">Nama Lengkap</label>
+                <input type="text" id="res-nama" placeholder="Nama Anda" autocomplete="name" aria-describedby="err-nama">
+                <span class="error" id="err-nama" aria-live="polite"></span>
+            </div>
+
+            <div class="field">
+                <label for="res-wa">Nomor WhatsApp</label>
+                <input type="tel" id="res-wa" placeholder="0812 3456 7890" autocomplete="tel" aria-describedby="err-wa">
+                <span class="error" id="err-wa" aria-live="polite"></span>
+            </div>
+
+            <div class="field">
+                <label for="res-tanggal">Tanggal</label>
+                <input type="date" id="res-tanggal" aria-describedby="err-tanggal">
+                <span class="error" id="err-tanggal" aria-live="polite"></span>
+            </div>
+
+            <div class="field">
+                <label for="res-jam">Jam</label>
+                <input type="time" id="res-jam" aria-describedby="err-jam">
+                <span class="error" id="err-jam" aria-live="polite"></span>
+            </div>
+
+            <div class="field">
+                <label for="res-orang">Jumlah Orang</label>
+                <input type="number" id="res-orang" min="1" max="20" inputmode="numeric" placeholder="2" aria-describedby="err-orang">
+                <span class="error" id="err-orang" aria-live="polite"></span>
+            </div>
+
+            <div class="field">
+                <label for="res-area">Pilihan Area</label>
+                <select id="res-area" aria-describedby="err-area">
+                    <option value="">Pilih area</option>
+                    <option value="Ruangan ber-AC">Ruangan ber-AC</option>
+                    <option value="Area Outdoor">Area Outdoor</option>
+                    <option value="Ruang Meeting Privat">Ruang Meeting Privat</option>
+                </select>
+                <span class="error" id="err-area" aria-live="polite"></span>
+            </div>
+
+            <div class="field field-full">
+                <label for="res-catatan">Catatan (opsional)</label>
+                <textarea id="res-catatan" maxlength="200" placeholder="Contoh: ulang tahun, butuh kursi bayi"></textarea>
+            </div>
+
+                </div>
+
+                <button type="submit" class="btn-reservasi">Kirim Reservasi</button>
+                <p class="form-sukses" id="res-sukses" tabindex="-1" hidden></p>
+        </form>
+        </div>
+    </section>
+
+    <section id="kontak" class="kontak">
+        <div class="kontak-top">
+            <div>
+                <h3 class="judul-kecil">Tentang Kami</h3>
+                <p class="deskripsi">
+                    Ngopi Dulu lahir dari kebiasaan sederhana: duduk sebentar, menyeduh kopi,
+                    dan menikmati obrolan hangat sebelum melanjutkan hari.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="judul-script">Temukan Kami</h3>
+                <div class="social">
+                    <a href="#" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider">
+            <span class="line"></span>
+            <span class="dot"></span>
+            <span class="line"></span>
+        </div>
+
+        <ul class="info">
+            <li>+62 123-4567-8910</li>
+            <li>Jl. Kopi Nusantara No. 12, Jawa Timur</li>
+            <li>admin@ngopidulu.id</li>
+        </ul>
+    </section>
+
+        <footer class="footer">
+            <p class="copyright">
+                <span>&copy; Ngopi Dulu 2026.</span> <span class="putih">All rights reserved.</span>
+            </p>
+            <a href="#" class="back-top">
+                <span class="label">Kembali ke Atas</span>
+                <span class="arrow">&#8593;</span>
+            </a>
+        </footer>
+
+        <script>
+            const slideshow = document.querySelector('.slideshow');
+            const track = document.querySelector('.slideshow-track');
+            const total = track.children.length;
+            const INTERVAL = 4000;
+            let index = 0;
+            let timer;
+
+            function show(i) {
+                index = (i + total) % total;
+                track.style.transform = `translateX(-${index * 100}%)`;
+            }
+
+            function start() { timer = setInterval(() => show(index + 1), INTERVAL); }
+            function stop() { clearInterval(timer); }
+
+            document.querySelector('.slideshow-next').addEventListener('click', () => show(index + 1));
+            document.querySelector('.slideshow-prev').addEventListener('click', () => show(index - 1));
+
+            slideshow.addEventListener('mouseenter', stop);
+            slideshow.addEventListener('mouseleave', start);
+
+            start();
+        </script>
+
+        <script>
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.getElementById('nav-menu');
+
+            navToggle.addEventListener('click', () => {
+                const isOpen = navMenu.classList.toggle('open');
+                navToggle.classList.toggle('open', isOpen);
+                navToggle.setAttribute('aria-expanded', isOpen);
+            });
+
+            navMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('open');
+                    navToggle.classList.remove('open');
+                    navToggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+        </script>
+
+        <script>
+        (() => {
+            const track = document.querySelector('.review-track');
+            const total = track.children.length;
+            let index = 0;
+
+            function show(i) {
+                index = (i + total) % total;
+                track.style.transform = `translateX(-${index * 100}%)`;
+            }
+
+            document.querySelector('.review-next').addEventListener('click', () => show(index + 1));
+            document.querySelector('.review-prev').addEventListener('click', () => show(index - 1));
+        })();
+        </script>
+
+    </body>
+</html>
